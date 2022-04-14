@@ -37,14 +37,14 @@ public class GuestUserService {
 		 tokenRepository.save(token);
 		 
 		 generateGuestTokenResponse.setToken(tokenString);
-		 generateGuestTokenResponse.setMessage(CommonConstant.MESSAGE_STATUS_SUCCESS);
+		 generateGuestTokenResponse.setMessage(CommonConstant.RESPONSE_MESSAGE_SUCCESS);
 		 generateGuestTokenResponse.setStatus(CommonConstant.RESPONSE_STATUS_SUCCESS);
 		 
 		}
 		catch(Exception e)
 		{
 			e.printStackTrace();
-			generateGuestTokenResponse.setMessage(CommonConstant.MESSAGE_STATUS_ERROR);
+			generateGuestTokenResponse.setMessage(CommonConstant.RESPONSE_MESSAGE_ERROR);
 			generateGuestTokenResponse.setStatus(CommonConstant.RESPONSE_STATUS_ERROR);
 		}
 		return generateGuestTokenResponse;

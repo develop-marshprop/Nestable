@@ -9,9 +9,9 @@ public class CommonConstant {
 		
 		
 		//Message response for api
-		public static final String MESSAGE_STATUS_SUCCESS="Request submitted successfully.";
-		public static final String MESSAGE_STATUS_FAILURE="Request failed.";
-		public static final String MESSAGE_STATUS_ERROR="There is an error. Try after some time.";
+		public static final String RESPONSE_MESSAGE_SUCCESS="Request submitted successfully.";
+		public static final String RESPONSE_MESSAGE_FAILURE="Request failed.";
+		public static final String RESPONSE_MESSAGE_ERROR="There is an error. Try after some time.";
 		
 		
 

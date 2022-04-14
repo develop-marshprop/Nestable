@@ -6,11 +6,14 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class TokenUtil {
-public String generateToken() {
-		
-		UUID uuid = UUID.randomUUID();
-		
-		return uuid.toString();
-	}
+	
+	
+	public String generateToken() {
+			
+			UUID uuid = UUID.randomUUID();
+			
+			return uuid.toString();
+		}
 
+		
 }
